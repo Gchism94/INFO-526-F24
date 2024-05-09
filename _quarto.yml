@@ -1,14 +1,12 @@
 project:
   type: website
   output-dir: docs
-  resources:
-    - info526-f23-syllabus.pdf
 
 website:
   page-navigation: true
   title: "INFO 526"
   description: "Homepage for INFO 526 - Data Visualization and Analysis at The University of Arizona, Spring 2024."
-  site-url: "http://datavizaz.org/"
+  site-url: "https://datavizaz-s24.netlify.app/"
   favicon: /images/logo.png
 
   repo-url: https://github.com/INFO-526-S24
@@ -31,13 +29,6 @@ website:
       - icon: person-fill
         text: "D2L"
         href: https://d2l.arizona.edu/d2l/home/1334576
-        menu:
-          - text: Announcements
-            href: https://datavizaz.slack.com
-          - text: Zoom meetings
-            href: https://arizona.zoom.us/my/gregchism
-          - text: Gradebook
-            href: https://d2l.arizona.edu/d2l/home/1334576
 
     style: docked
     search: true
