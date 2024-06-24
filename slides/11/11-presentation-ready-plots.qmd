@@ -14,27 +14,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
+## Announcements
 
-## Announcements I
+-   Project 1 due Wednesday, October 16th, 5pm
 
-Presentations Monday Mar 11 in lecture:
-
--   Bring a laptop to fill out feedback forms
-
--   One more team evaluation to be filled out promptly after class
-
--   Presentation order to be announced in class tomorrow
-
-::: {.callout-note appearance="minimal"}
-We might go over by 10 mins max for lecture.
-:::
-
-## Announcements II
-
--   Take note of Project 2 presentation date: must be in class in person to present or present live via Zoom in case of isolation
-
--   New teams to be announced following presentations
+-   Project 1 presentations -- Wednesday, October 16th in class, **all team members must be there**
 
 ## Lessons from HW 02 {.smaller}
 
@@ -67,11 +51,14 @@ We might go over by 10 mins max for lecture.
 #| message: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(ggrepel)
-library(patchwork)
-library(ggtext)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               ggrepel,
+               patchwork,
+               ggtext)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 16))
@@ -636,4 +623,4 @@ Learn more at [https://patchwork.data-imaginist.com](https://patchwork.data-imag
 
 <br>
 
-Look into the source code at [https://github.com/INFO-526-S24/INFO526-S24/slides/](https://github.com/INFO-526-S24/INFO526-S24/tree/main/slides).
+Look into the source code at [https://github.com/INFO-526-F24/INFO526-F24/slides](https://github.com/INFO-526-F24/INFO526-F24/tree/main/slides).

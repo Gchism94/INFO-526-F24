@@ -14,13 +14,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   Final Project 1 due Monday, March 11th, 11am
+-   HW 02 is due Monday, October 02 at 5:00pm
 
--   Project 1 presentations -- Monday March 11th in class, **all team members must be there**
+-   RQ 03 is due Wednesday, October 09 at 5:00pm
 
 ## Setup {.smaller}
 
@@ -29,13 +27,15 @@ editor_options:
 #| message: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(lubridate)
-library(janitor)
-library(colorspace)
-library(broom)
-library(fs)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               janitor,
+               colorspace,
+               broom,
+               fs)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))

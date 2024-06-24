@@ -14,8 +14,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
 -   Project feedback will be back to you by Friday.

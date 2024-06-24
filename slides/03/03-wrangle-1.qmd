@@ -13,12 +13,17 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   HW 1 due Monday, Jan 29 at 11:59pm, make sure all checks are passing!
--   See #random on Slack for playlist request
+-   HW 1 due Monday, Sept 09 at 5:00pm
+-   Project proposal peer review (Wednesday, Sept 11)
+    -   You'll be assessed on the quality (and participation) of your peer review
+
+    -   Updates based on peer review are due Monday, Sept 16 at 5:00pm
+
+    -   Full group attendance is **mandatory**
+
+    -   Your proposal will be "graded" after that, by me
 -   Office Hours: Come with questions on HW 1, particularly Questions 1-4.
 
 ## Setup {.smaller}
@@ -28,11 +33,13 @@ editor_options:
 #| message: false
 
 # load packages
-library(tidyverse)
-library(glue)
-library(lubridate)
-library(scales)
-library(countdown)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(tidyverse,
+               glue,
+               scales,
+               countdown)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))
@@ -77,13 +84,13 @@ want to slice it, and dice it, and juice it, and process it, so we can plot it
 Which of the following (if any) are unfamiliar to you?
 :::
 
--   `distinct()`
--   `select()`, `relocate()`
--   `arrange()`, `arrange(desc())`
--   `slice()`, `slice_head()`, `slice_tail()`, `slice_sample()`
--   `filter()`
--   `mutate()`
--   `summarise()`, `count()`
+-   [`distinct()`](https://dplyr.tidyverse.org/reference/distinct.html)
+-   [`select()`](https://dplyr.tidyverse.org/reference/select.html), [`relocate()`](https://dplyr.tidyverse.org/reference/relocate.html)
+-   [`arrange()`](https://dplyr.tidyverse.org/reference/arrange.html), [`arrange(desc())`](https://dplyr.tidyverse.org/reference/desc.html)
+-   [`slice()`](https://dplyr.tidyverse.org/reference/slice.html), `slice_head()`, `slice_tail()`, `slice_sample()`
+-   [`filter()`](https://dplyr.tidyverse.org/reference/filter.html)
+-   [`mutate()`](https://dplyr.tidyverse.org/reference/mutate.html)
+-   [`summarise()`](https://dplyr.tidyverse.org/reference/summarise.html), [`count()`](https://dplyr.tidyverse.org/reference/count.html)
 
 ## Average cost of daily stay
 

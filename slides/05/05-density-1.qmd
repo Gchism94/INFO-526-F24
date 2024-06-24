@@ -18,15 +18,18 @@ revealjs-plugins:
 ## Announcements
 
 -   Office Hours Monday will be devoted to Project 1!
--   Project 1 proposals submitted for peer review by 11am Monday, Feb 5th
--   Project proposal peer review
-    -   You'll be assessed on the quality (and participation) of your peer review
 
-    -   Updates based on peer review are due Monday, Feb 5th at 11:59pm
+## Project next steps I {.smaller}
 
-    -   Full group attendance is **mandatory**
+-   Proposal feedback is available.
+    -   Required: Address all issues and close them.
 
-    -   Your proposal will be "graded" after that, by me
+## Project next steps II {.smaller}
+
+-   Create a slide deck in `presentation.qmd`, replacing the placeholder text.
+-   Add your write-up to `index.qmd`, replacing the placeholder text.
+-   In both outputs, hide the code with `echo: false` prior to turning them in.
+-   Due: Wednesday, October 16th, 2pm.
 
 ```{r}
 #| label: setup
@@ -34,21 +37,20 @@ revealjs-plugins:
 #| echo: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(glue)
-library(lubridate)
-library(scales)
-library(ggthemes)
-library(gt)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               glue,
+               scales,
+               ggthemes,
+               gt)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))
-# 
-# # set width of code output
-# options(width = 65)
-# 
-# # set figure parameters for knitr
+
+# set figure parameters for knitr
 knitr::opts_chunk$set(
   fig.height = 3.6,      
   # fig.asp = 0.618,      # the golden ratio
@@ -194,7 +196,7 @@ names(Batting)
 Our dataset comes from the R package `Lahman`. Each row in the data frame is the hitting stats of a player for a given year. We will mostly be using the following columns:
 
 | Variable   | Description                                                                        |
-|--------------|----------------------------------------------------------|
+|------------------|------------------------------------------------------|
 | `yearID`   | The year for the statistics                                                        |
 | `playerID` | Player unique ID to distinguish rows                                               |
 | `HR`       | The number of home runs a player hit in a given year                               |

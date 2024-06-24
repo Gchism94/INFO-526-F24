@@ -14,12 +14,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   HW 4 due Wednesday, April 3rd
--   Project 2 proposals for peer review due Wednesday, April 3rd
+-   HW 04 + RQ 05 due Wednesday, November 20th at 5:00pm
+-   Project 2 proposals for peer review due Wednesday, November 13th
+-   Veteran's Day Monday, November 11th - No Classes!
 
 ## Setup {.smaller}
 
@@ -28,13 +27,16 @@ editor_options:
 #| message: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(ggnewscale)
-library(magick)
-library(sf)
-library(stars)
-library(tmap)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               sf,
+               ggnewscale,
+               magick,
+               stars,
+               tmap)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))

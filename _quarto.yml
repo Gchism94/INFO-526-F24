@@ -5,11 +5,11 @@ project:
 website:
   page-navigation: true
   title: "INFO 526"
-  description: "Homepage for INFO 526 - Data Visualization and Analysis at The University of Arizona, Spring 2024."
-  site-url: "https://datavizaz-s24.netlify.app/"
+  description: "Homepage for INFO 526 - Data Visualization and Analysis at The University of Arizona, Fall 2024."
+  site-url: "http://datavizaz.org/"
   favicon: /images/logo.png
 
-  repo-url: https://github.com/INFO-526-S24
+  repo-url: https://github.com/INFO-526-F24
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -21,14 +21,21 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/INFO-526-S24
+        href: https://github.com/INFO-526-F24
         text: "GitHub organization"
       - icon: code-square
         href: https://posit.cloud/
         text: "Posit Cloud"
       - icon: person-fill
         text: "D2L"
-        href: https://d2l.arizona.edu/d2l/home/1334576
+        href: https://d2l.arizona.edu/d2l/home/1469809
+        menu:
+          - text: Announcements
+            href: https://info526fall2024.slack.com
+          - text: Zoom meetings
+            href: https://arizona.zoom.us/my/gregchism
+          - text: Gradebook
+            href: https://d2l.arizona.edu/d2l/home/1469809
 
     style: docked
     search: true
@@ -46,48 +53,62 @@ website:
             text: Teaching team
           - href: index.qmd
             text: Schedule
+      - section: "Resources"
+        contents: 
           - href: course-links.qmd
             text: Useful links
-          - href: course-faq.qmd
-            text: FAQ
-      - section: "Computing"
-        contents:
+          - href: resources/design.qmd
+            text: Design
+          - href: resources/visualization.qmd
+            text: Visualization
+          - href: resources/R.qmd
+            text: Learning R
+          - href: resources/style.qmd
+            text: Code style
           - href: computing/computing-troubleshooting.qmd
             text: Troubleshooting
           - href: computing/computing-cheatsheets.qmd
             text: Cheatsheets
+      - section: "Guides"
+        contents:
+          - href: guides/install.qmd
+            text: Installing R/RStudio
           - href: computing/computing-git.qmd
             text: Setting up Git
+          - href: guides/markdown.qmd
+            text: Markdown
+          - href: guides/quarto.qmd
+            text: Quarto
       - section: "Projects"
         contents:
           - href: project/project-1.qmd
-            text: Project 1 
+            text: Final Project
           - href: student-work/project-1.qmd
-            text: Project 1 Examples
-          - href: project/project-2.qmd
-            text: Project 2
+            text: Project Examples
+          #- href: project/project-2.qmd
+            #text: Project 2
           - href: project/project-tips-resources.qmd
             text: Tips & Resources
       - section: "Homework"
         contents:
-          #- href: homework/hw-0.qmd
-            #text: HW 00
+          - href: homework/hw-00.qmd
+            text: HW 00
           - href: homework/hw-01.qmd
             text: HW 01
-          - href: homework/hw-02.qmd
-            text: HW 02
-          - href: homework/hw-03.qmd
-            text: HW 03
-          - href: homework/hw-04.qmd
-            text: HW 04
-          - href: homework/hw-05.qmd
-            text: HW 05
-          - href: homework/hw-06.qmd
-            text: HW 06
-      - section: "Student work"
-        contents:
-          - href: student-work/project-1.qmd
-            text: Project 1 Examples
+          #- href: homework/hw-02.qmd
+           # text: HW 02
+          #- href: homework/hw-03.qmd
+           # text: HW 03
+          #- href: homework/hw-04.qmd
+           # text: HW 04
+          #- href: homework/hw-05.qmd
+            #text: HW 05
+          #- href: homework/hw-06.qmd
+            #text: HW 06
+      #- section: "Student work"
+        #contents:
+          #- href: student-work/project-1.qmd
+            #text: Project Examples
           
 
   page-footer:

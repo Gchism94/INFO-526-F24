@@ -1,5 +1,5 @@
 ---
-title: "INFO 526 Syllabus Spring 2024"
+title: "INFO 526 Syllabus Fall 2024"
 format: 
   html: default
   pdf: default
@@ -11,7 +11,7 @@ INFO 526 Data Analysis and Visualization - This course provides an overview of t
 
 ## Course offering
 
-860-2241-1 INFO 526 001 -- Data Analysis and Visualization
+860-2241-1 INFO 526 002 -- Data Analysis and Visualization
 
 ## Instructor Information
 
@@ -27,19 +27,7 @@ School of Information
 
 **Office**: Harvill 420
 
-**Office Hours**: Mondays, 1-2pm, Harvill 420
-
-### Teacher's Assistant
-
-Laura Dozal
-
-PhD Student
-
-School of Information
-
-[lwerthmann\@arizona.edu](mailto:lwerthmann@arizona.edu)
-
-Office: Zoom; available upon request.
+**Office Hours**: Mondays, 11:30am-12:30pm, Harvill 420
 
 ## Prerequisites
 
@@ -49,7 +37,7 @@ This course assumes that this is not your first interaction with working with da
 
 ## Course Format
 
-Live in-person lectures, MW 11am-12:15pm, McClelland Park, Rm 103. Attendance is mandatory.
+Live in-person lectures, MW 2:00-3:15pm, M Pacheco ILC, Rm 130. Attendance is mandatory.
 
 ## Course Objective
 
@@ -133,20 +121,20 @@ Assessment for the course is comprised of four components: attendance and partic
 
 -   **Attendance and participation** is required throughout the semester. Students who attend at least 80% of the lectures and participate regularly during lecture will receive full credit for this portion of their grade. Participation on Slack will also count towards this component.
 
--   **Reading quizzes** (6), due every other week (roughly), completed individually. Each quiz is worth 2% of the grade. Lowest quiz score is dropped.
+-   **Reading quizzes** (5), due every other week (roughly), completed individually. Each quiz is worth 2% of the grade.
 
-    Reading quizzes will be linked from the [course schedule](https://datavizaz.org/). They always cover reading that is due since the previous quiz and up to and including the deadline for the given quiz. They're due by 12pm ET (beginning of class) on the indicated day on the [course schedule](https://datavizaz.org/).
+    Reading quizzes will be linked from the [course schedule](https://datavizaz.org/). They always cover reading that is due since the previous quiz and up to and including the deadline for the given quiz. They're due by 5pm AZ time (end of business day) on the indicated day on the [course schedule](https://datavizaz.org/).
 
--   **Homework assignments** (6), due every other week (roughly), completed individually. Each homework assignment is worth 9% of the course grade. Lowest homework assignment score is dropped.
+-   **Homework assignments** (5), due every 2-3 weeks (roughly), completed individually. Each homework assignment is worth 9% of the course grade.
 
-    Homework assignments are due by 12pm ET (beginning of class) on the indicated day on the [course schedule](https://datavizaz.org/).
+    Homework assignments are due by 5pm AZ time (end of business day) on the indicated day on the [course schedule](https://datavizaz.org/).
 
 -   **Projects** (2), mid-semester and end of semester, completed in teams.
 
     -   Project 1: Teams will be given a dataset to visualize. Project 1 is worth 15% of the course grade.
     -   Project 2: Teams will pick a dataset of interest to them and/or build an R package that implements a new type of data visualization in R. Project 2 is worth 25% of the course grade.
 
-    The deliverables for each project will include a data visualization, a write up of the process and findings, and a presentation. For the second project, you will be encouraged to think beyond a traditional two-dimensional data visualization (e.g., interactive web apps/dashboards, data art, generative art, physical/tangible visualizations, **ggplot2** extensions, etc.).
+    The deliverables for each project will include a data visualization, a write up of the process and findings, and a presentation. For the second project, you will be encouraged to think beyond a traditional two-dimensional data visualization (e.g., interactive web apps/dashboards, data art, generative art, physical/tangible visualizations, {**ggplot2**} extensions, etc.).
 
     Each project will have a peer review component to provide at least one round of feedback during the process of development. Teams will provide periodic peer feedback to their teammates while working on the projects as well as upon completion. The scores from the peer evaluations, along with individual contributions tracked by commits on GitHub, will be used to ensure that each student has contributed to the teamwork.
 
@@ -183,7 +171,7 @@ These are upper bounds for grade cutoffs, depending on the class performance the
 
 Your task for this project is to create *something* related to data visualization.
 
-This is intentionally vague \-- part of the challenge is to design a project that showcases best your interests and strengths.
+This is intentionally vague -- part of the challenge is to design a project that showcases best your interests and strengths.
 
 One requirement is that your project should feature some element that you had to learn on your own. This could be a package you use that we didn't teach in class (e.g., a package for building 3D visualizations) or a workflow (e.g., making a package) or anything else. If you're not sure if your "new" thing counts, just ask!
 
@@ -191,7 +179,7 @@ More information will be provided throughout the semester.
 
 ### Final Project Date
 
-**Tuesday, May 07, 10:30am-12:30pm**
+**Friday, Dec 13, 1:00-3:00pm**
 
 ## Teams
 
@@ -251,7 +239,7 @@ Large language models (LLMs) like ChatGPT are a type of artificial intelligenc
 
 *See my policies on this subject above.*
 
-### Late work & extensions
+### Late work & extensions {#late-work-extensions}
 
 The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.
 
@@ -273,17 +261,13 @@ Policy on late work depends on the particular course component:
 
     -   Write up: GitHub repositories will be closed to contributions at the deadline. If you need to submit your work late, Slack/email me to reopen your repository.
 
-        -  Late, within 24 hours of deadline: -10% of available points
+        -   Late, within 24 hours of deadline: -10% of available points
 
         -   Late, within 24-48 hours of deadline: -20% of available points
 
         -   Two days late or later: No credit, and we will not provide written feedback
 
     -   Peer evaluation: Late peer evaluations are not accepted and there are no make ups for missed presentations. If you do not turn in your peer evaluation, you get 0 points for your own peer score as well, regardless of how your teammates have evaluated you.
-
-### Free passes
-
-I allow three "free passes", which extends your homework deadline by one full day. They can also be stacked, so two or three passes can apply to a single homework assignment. To utilize these passes, submit a GitHub issue with the number that you will be using. Use sparingly, I will not allow late un-penalized late work after they are gone.
 
 ### Waiver for extenuating circumstances
 
@@ -293,13 +277,7 @@ If there are circumstances that are having a longer-term impact on your academic
 
 ### Regrade requests
 
-#### Before hw-02 (training wheels on)
-
-I will regrade your homework assignments 1 once to encourage the correct format for future submissions. Your final score will be the midpoint of the first and second score (e.g., first score: 70%, second score: 100% = final score: 85%). Re-submissions must be received within 1-week of the original grade.
-
-#### From hw-02 and on (training wheels come off)
-
-Regrade requests must be made within one week of when the assignment is returned, and must be typed up and submitted via email to me. These will be considered if points were tallied incorrectly or if you feel your answer is correct but it was marked wrong. No regrade will be made to alter the number of points deducted for a mistake. There will be no grade changes after the second project presentations. Note that during the regrade process your score could go up or go down or not change.
+Regrade requests must be made within one week of when the assignment is returned, and must be typed up and submitted via email to me. These will be considered if points were tallied incorrectly or if you feel your answer is correct but it was marked wrong. No regrade will be made to alter the number of points deducted for a mistake. Note that during the regrade process your score could go up or go down or not change.
 
 *No grades will be changed after the project presentations.*
 
@@ -343,14 +321,14 @@ Also watch the video available at <https://arizona.sabacloud.com/Saba/Web_spf/N
 
 ## Important dates
 
--   **Wednesday, January 10:** Classes begin, Wednesday schedule
--   **Monday,** **January 15:** MLK Day, no class
+-   **Monday, August 26:** Classes begin, Monday schedule
+-   **Monday,** **September 02:** Labor Day, no class; Drop/add ends
 -   **Wednesday, January 17**: Drop/add ends
--   **Tuesday, February 06**: Last day to drop without a W (withdraw)
--   **Monday-Sunday, March 04-10**: Spring recess, no class
--   **Tuesday, March 26**: Last day to withdraw from a class online through UAccess
--   **Wednesday, May 01**: Last day of class, no registration changes can be made
--   **Tuesday, May 07**: Project 2 presentations, 10:30am-12:30pm
+-   **Sunday, September 22**: Last day to drop without a W (withdraw)
+-   **Sunday, November 03**: Last day to withdraw from a class online through UAccess
+-   **Monday, November 11**: Veteran's Day, no class
+-   **Wednesday, December 11**: Last day of class, no registration changes can be made
+-   **Friday, December 13**: Project 2 presentations, 1:00-3:00pm
 
 For more important dates, see the full [UArizona Academic Calendar](https://catalog.arizona.edu/2023-2024-academic-calendar).
 

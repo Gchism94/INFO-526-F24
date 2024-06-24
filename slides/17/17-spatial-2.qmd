@@ -14,12 +14,11 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   HW 4 due Wednesday, April 3rd
--   Project 2 proposals for peer review due Wednesday, April 3rd -- start working on them today
+-   HW 04 + RQ 05 due Wednesday, November 20th at 5:00pm
+-   Project 2 proposals for peer review due Wednesday, November 13th
+-   Veteran's Day Monday, November 11th - No Classes!
 
 ## Large data advice
 
@@ -34,14 +33,17 @@ editor_options:
 #| message: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(ggrepel)
-library(ggspatial)
-library(patchwork)
-library(rnaturalearth)
-library(rnaturalearthdata)
-library(sf)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               ggrepel,
+               ggspatial,
+               sf,
+               patchwork,
+               rnaturalearth,
+               rnaturalearthdata)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))
@@ -406,11 +408,8 @@ lat_long <- c(lat_lines, long_lines) |>
   st_sfc() |>
   st_set_crs("+proj=longlat +datum=WGS84 +no_defs")
 
-data(wrld_simpl, package = "maptools")
-world <- st_as_sf(wrld_simpl)
-
-NAm <- world |> filter(FIPS %in% c("CA", "GL", "MX", "US"))
-NAm_google <- st_transform(NAm, "+init=epsg:3857")
+world <- ne_countries(scale = "medium", returnclass = "sf")
+NAm <- world |> filter(fips_10 %in% c("CA", "GL", "MX", "US"))
 
 par(mar = c(3, 2, 2, 1), mfrow = c(2, 3))
 plot(lat_long, col = adjustcolor("grey", alpha.f = 0.5), axes = TRUE, main = "Lat/Long (epsg:4326)")

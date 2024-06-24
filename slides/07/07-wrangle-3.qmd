@@ -14,12 +14,10 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   RQ 3 is due Feb 19th
--   Project 1 reviews will be returned to you by Wednesday
+-   RQ 02 is due Wednesday, September 25 at 5:00pm
+-   HW 02 is due Monday, October 02 at 5:00pm
 
 ## Setup {.smaller}
 
@@ -28,16 +26,18 @@ editor_options:
 #| message: false
 
 # load packages
-library(countdown)
-library(tidyverse)
-library(glue)
-library(lubridate)
-library(scales)
-library(ggthemes)
-library(gt)
-library(palmerpenguins)
-library(openintro)
-library(ggrepel)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               glue,
+               scales,
+               ggthemes,
+               gt,
+               palmerpenguins,
+               openintro,
+               ggrepel)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))
@@ -503,9 +503,7 @@ ggplot(scientists_longer,
 What is the plot in the previous slide called?
 :::
 
-## Livecoding {.smaller}
-
-Reveal below for code developed during live coding session.
+## Live-coding {.smaller}
 
 -   Transform
 

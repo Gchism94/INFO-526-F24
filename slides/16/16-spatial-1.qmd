@@ -14,12 +14,10 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Warm up
-
 ## Announcements
 
--   HW 4 due Wednesday, April 3rd
--   Project 2 proposals for peer review due Wednesday, April 3rd -- start working on them today
+-   HW 04 + RQ 05 due Wednesday, November 20th (live now)
+-   Project 2 proposals for peer review due Wednesday, November 13th
 
 ## Note
 
@@ -44,12 +42,15 @@ So you never need to load `dplyr`, `ggplot2`, `readr`, etc. separately if you've
 #| message: false
 
 # load packages
-library(countdown)
-# library(tidyverse) - already loaded
-library(mapproj)
-library(sf)
-library(geofacet)
-library(glue)
+if(!require(pacman))
+  install.packages("pacman")
+
+pacman::p_load(countdown,
+               tidyverse,
+               mapproj,
+               sf,
+               geofacet,
+               glue)
 
 # set theme for ggplot2
 ggplot2::theme_set(ggplot2::theme_minimal(base_size = 14))

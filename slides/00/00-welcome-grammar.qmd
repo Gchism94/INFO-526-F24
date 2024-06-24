@@ -38,10 +38,9 @@ Laura Dozal
 ## Timetable
 
 -   Lectures (weekly)
-    -   Mondays, 11:00am - 12:15 pm - McClelland Park, RM 103
-    -   Wednesdays, 11:00am - 12:15 pm - McClelland Park, RM 103
+    -   MW, 2:00-3:15pm - M Pacheco ILC, Rm 130
 -   Meeting dates
-    -   01/10/2023 - 05/06/2023
+    -   08/26/2024 - 12/11/2024
 
 ## Themes: what, why, and how {.smaller}
 
@@ -197,10 +196,10 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 This course is assessed 100% on your coursework (there is no exam). We will be assessing you based on the following assignments,
 
 | Assignment                 | Type       | Value | n   | Due                                        |
-|:------------|:------------|:------------|:------------|--------------------|
+|:--------------|:--------------|:--------------|:--------------|---------------|
 | Attendance + participation | Individual | 5%    |     |                                            |
-| Reading quizzes            | Individual | 10%   | 6   | \~ Every other week                        |
-| Homeworks                  | Individual | 45%   | 6   | \~ Every other week                        |
+| Reading quizzes            | Individual | 10%   | 5   | \~ Every 2-3 weeks                         |
+| Homeworks                  | Individual | 45%   | 5   | \~ Every 2-3 weeks                         |
 | Project 1                  | Team       | 15%   | 1   | \~ Week 6 + earlier interim deadlines      |
 | Project 2                  | Team       | 25%   | 1   | \~ Finals week + earlier interim deadlines |
 
@@ -208,8 +207,11 @@ This course is assessed 100% on your coursework (there is no exam). We will be a
 
 This is not required but highly recommended! ([Extra credit of up to 1 HW assignment]{.underline})
 
+::: incremental
 -   [TidyTuesday](https://github.com/rfordatascience/tidytuesday) - New dataset every week for wrangling, visualizing, modeling
 -   I encourage you to participate, or at a minimum, browse others' contributions on Twitter or Mastodon with [#TidyTuesday](https://twitter.com/search?q=%23TidyTuesday&src=typed_query&f=live)
+-   P.S. No one has done this yet...
+:::
 
 # Course policies
 
@@ -227,38 +229,22 @@ This is not required but highly recommended! ([Extra credit of up to 1 HW assign
 
 -   Homework assignments:
 
-    -   Late, but next day (before noon): -10% of available points
-    -   Late, but next day (after noon): -20% of available points
+    -   Late, but within 24-hours: -10% of available points
+    -   Late, but between 24 and 48-hours: -20% of available points
     -   Two days late or later: No credit, and we will not provide written feedback
 
 -   Project presentations: Late submissions not accepted
 
 -   Project write-ups:
 
-    -   Late, but next day (before noon): -10% of available points
-    -   Late, but next day (after noon): -20% of available points
+    -   Late, but within 24-hours: -10% of available points
+    -   Late, but between 24 and 48-hours: -20% of available points
     -   Two days late or later: No credit, and we will not provide written feedback
 
 -   Peer evaluation:
 
     -   Late submissions not accepted
     -   Must turn in peer evaluation if you want your own score from others
-
-## Free passes
-
-Three "free passes" for the semester
-
-::: incremental
--   1 pass = 1 whole day extension
-
--   Passes can be stacked up to 3
-
--   Once they're gone, that's it...
-
--   ...so use them wisely!
-
--   *Hint: like during midterms...*
-:::
 
 ## Collaboration policy
 
@@ -284,6 +270,12 @@ Three "free passes" for the semester
 
 -   By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way.
 
+## ChatGPT cont.
+
+-   By far the most common academic integrity violation
+
+-   **You cannot copy and paste ChatGPT (or any generative AI) code for assignments.**
+
 ## Academic integrity
 
 > To uphold the [UArizona iSchool Community Standard](https://ischool.arizona.edu/sites/ischool.arizona.edu/files/iSchool%20Policy%20on%20Academic%20Integrity%20in%20Computing%202023%20-%20approved%20by%20faculty%20vote%20April%202023.pdf#:~:text=UArizona%20iSchool%20Instructors%20are%20expected%20to%20help%20students,prohibited%20in%20some%20courses%20are%20allowed%20in%20others.):
@@ -308,9 +300,9 @@ ask if you're not sure if something violates a policy!
 
 -   Greg:
 
-    -   Mondays 1 - 2 pm - Harvill 420
+    -   Mondays 11:30am - 12:30 pm - Harvill 420
 
-        -   Except Mon, Jan 15 (MLK Holiday)
+        -   Except Mon, Sept 02 (Labor Day Holiday) and Nov 11 (Veteran's Day Holiday)
 
         -   Any other exceptions will be announced in class / by email
 
@@ -349,7 +341,7 @@ I want to make sure that you learn everything you were hoping to learn from this
 ## GitHub {.smaller}
 
 ::: {.large style="text-align: center;"}
-<https://github.com/INFO-526-S24>
+<https://github.com/INFO-526-F24>
 :::
 
 -   All of your work and your membership (enrollment) in the organization is private
@@ -414,13 +406,13 @@ Demo on Monday for asking good questions with proper code formatting.
 
 ## Data visualization
 
-> *"The simple graph has brought more information to the data analyst's mind than any other device." \-\-- John Tukey*
+> *"The simple graph has brought more information to the data analyst's mind than any other device." --- John Tukey*
 
 -   Data visualization is the creation and study of the visual representation of data
 
--   Many tools for visualizing data \-- R is one of them
+-   Many tools for visualizing data -- R is one of them
 
--   Many approaches/systems within R for making data visualizations \-- **ggplot2** is one of them, and that's what we're going to use
+-   Many approaches/systems within R for making data visualizations -- **ggplot2** is one of them, and that's what we're going to use
 
 ## ggplot2 ∈ tidyverse
 

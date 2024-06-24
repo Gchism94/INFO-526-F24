@@ -11,12 +11,11 @@ execute:
   code-link: true
 ---
 
-# Warm up
-
 ## Announcements
 
 -   A note on readings for this week: some of it is review so feel free to skim those parts.
--   RQ 1 is due Friday (Jan 26)
+-   HW 0 is due Monday (Sept 02) - This is ungraded, but serves as good practice
+-   RQ 1 is due Wednesday (Sept 04)
 
 ## Setup
 
