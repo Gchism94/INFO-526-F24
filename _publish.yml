@@ -1,6 +1,4 @@
--
- source: project
- netlify:
-  -
-   id: 094f428f-b60b-4ef8-b6f7-441a9d9f4441
-   url: 'https://datavizaz-s24.netlify.app'
+- source: project
+  netlify:
+    - id: cad87410-e170-4691-9f99-a45396d1df8f
+      url: 'https://bright-starship-a58d23.netlify.app'
