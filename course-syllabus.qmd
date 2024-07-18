@@ -11,7 +11,7 @@ INFO 526 Data Analysis and Visualization - This course provides an overview of t
 
 ## Course offering
 
-860-2241-1 INFO 526 002 -- Data Analysis and Visualization
+860-2241-1 INFO 526 002 - Data Analysis and Visualization
 
 ## Instructor Information
 
@@ -163,7 +163,7 @@ The final letter grade will be determined based on the following thresholds:
 | C            | 70 - 79.99         |
 | D            | 60 - 69.99         |
 | E            | 50-59.99           |
-| F            | \< 60              |
+| F            | \< 50              |
 
 These are upper bounds for grade cutoffs, depending on the class performance the cutoffs may be lowered but they won't be increased.
 

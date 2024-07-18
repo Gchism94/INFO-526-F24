@@ -470,7 +470,7 @@ ggplot(
 ```
 :::
 
-## Activity: Spot the differences \| {.smaller}
+## Activity: Spot the differences I {.smaller}
 
 ::: panel-tabset
 ## Plot

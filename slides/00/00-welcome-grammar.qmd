@@ -196,7 +196,7 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 This course is assessed 100% on your coursework (there is no exam). We will be assessing you based on the following assignments,
 
 | Assignment                 | Type       | Value | n   | Due                                        |
-|:--------------|:--------------|:--------------|:--------------|---------------|
+|:---------------------------|:-----------|:------|:----|--------------------------------------------|
 | Attendance + participation | Individual | 5%    |     |                                            |
 | Reading quizzes            | Individual | 10%   | 5   | \~ Every 2-3 weeks                         |
 | Homeworks                  | Individual | 45%   | 5   | \~ Every 2-3 weeks                         |

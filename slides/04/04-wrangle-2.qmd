@@ -279,14 +279,13 @@ hotels_summary
 ## 
 
 ::: task
-Which variables are plotted in the following visualization? Which aesthetics are they mapped to? Recreate the visualization.
+Which variables are plotted in the following visualization? Which aesthetics are they mapped to?
 :::
 
 ```{r}
 #| label: stay-nights
 #| fig-asp: 0.5
 #| echo: false
-#| dev: ragg_png
 
 hotels_summary |>
   mutate(is_canceled = if_else(is_canceled == 0, "Not canceled", "Canceled")) |>
