@@ -82,7 +82,7 @@ website:
       - section: "Projects"
         contents:
           - href: project/project-1.qmd
-            text: Final Project
+            text: Project 1
           - href: student-work/project-1.qmd
             text: Project Examples
           #- href: project/project-2.qmd

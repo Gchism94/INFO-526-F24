@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: cad87410-e170-4691-9f99-a45396d1df8f
-      url: 'https://datavizaz-f24.netlify.app'
+      url: 'https://datavizaz.org'
