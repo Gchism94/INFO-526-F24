@@ -29,6 +29,12 @@ School of Information
 
 **Office Hours**: Mondays, 11:30am-12:30pm, Harvill 420
 
+### Teacher's Assistant
+
+Young Soo Ko
+
+**Office Hours**: By appointment via Zoom.
+
 ## Prerequisites
 
 Strong quantitative, statistical, and analytical reasoning abilities are needed to succeed in this course.
@@ -75,9 +81,9 @@ This course is a core requirement for the MS in Data Science. It will help you m
 
 ## Course Community
 
-### UArizona Community Standard
+### University of Arizona Community Standard
 
-All students must adhere to the [UArizona Student Rights & Responsibilities](https://deanofstudents.arizona.edu/student-rights-responsibilities#:~:text=The%20Code%20of%20Academic%20Integrity%20and%20Student%20Code,conduct%20expected%20within%20the%20University%20of%20Arizona%20community.): The University of Arizona is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, and accountability. Citizens of this community commit to reflect upon these principles in all academic and non-academic endeavors, and to protect and promote a culture of integrity.
+All students must adhere to the [U of A Student Rights & Responsibilities](https://deanofstudents.arizona.edu/student-rights-responsibilities#:~:text=The%20Code%20of%20Academic%20Integrity%20and%20Student%20Code,conduct%20expected%20within%20the%20University%20of%20Arizona%20community.): The University of Arizona is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, and accountability. Citizens of this community commit to reflect upon these principles in all academic and non-academic endeavors, and to protect and promote a culture of integrity.
 
 ### Inclusive community
 
@@ -191,39 +197,68 @@ You are expected to make use of the provided GitHub repository as their central 
 
 ### Academic honesty
 
-**TL;DR: Don't cheat!**
-
-Students are expected to abide by The University of Arizona Code of Academic Integrity. 'The guiding principle of academic integrity is that a student's submitted work must be the student's own.' If you have any questions regarding what acceptable practice under this Code is, please ask an Instructor.
+**TL;DR: Don’t cheat!**
 
 Please abide by the following as you work on assignments in this course:
 
 -   **Collaboration:** Only work that is clearly assigned as team work should be completed collaboratively.
 
--   The reading quizzes must be completed individually with absolutely no communication with classmates.
+    -   You may discuss lab assignments with other students; however, you may not directly share (or copy) code or write up with other students.
+        For team assignments, you may collaborate freely within your team.
+        You may discuss the assignment with other teams; however, you may not directly share (or copy) code or write up with another team.
+        Unauthorized sharing (or copying) of the code or write up will be considered a violation for all students involved.
 
--   The homework assignments must also be completed individually and you are welcomed to discuss the assignment with classmates at a high level (e.g., discuss what's the best way for approaching a problem, what functions are useful for accomplishing a particular task, etc.). However you may not directly share answers to homework questions (including any code) with anyone other than myself and the teaching assistants.
+    -   You may not discuss or otherwise work with others on the exams.
+        Unauthorized collaboration or using unauthorized materials will be considered a violation for all students involved.
+        More details will be given closer to the exam date.
 
--   For the projects, collaboration within teams is not only allowed, but expected. Communication between teams at a high level is also allowed however you may not share code or components of the project across teams.
+    -   For the project, collaboration within teams is not only allowed, but expected.
+        Communication between teams at a high level is also allowed however you may not share code or components of the project across teams.
 
--   **Sharing and reusing code:** I am well aware that a huge volume of code is available on the web to solve any number of problems. Unless I explicitly tell you not to use something, the course's policy is that you may make use of any online resources (e.g. RStudio Community, StackOverflow) but you must explicitly cite where you obtained any code you directly use (or use as inspiration). Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism. On individual assignments you may not directly share code with another student in this class, and on team assignments you may not directly share code with another team in this class.
+    -   On individual assignments you may not directly share work (including code) with another student in this class, and on team assignments you may not directly share work (including code) with another team in this class.
 
--   **Generative AI (e.g., ChatGPT):** I am additionally aware of the potential code AI for coding (I taught a workshop on it...). While these tools are amazing, learners should be aware of the impacts that using such tools can have on core competency. David Humphrey, a computer science professor, [**wrote about ChatGPT and its potentially negative impacts on core learning.**](https://blog.humphd.org/cheatgpt/) It is a good read about the pitfalls of using generative AI in an educational context. By using a generative AI, learners may miss the opportunity to discover how something works and why things are done that way. It is also important to note that the iSchool generally bans utilizing ChatGPT and generative AI in our [Academic Integrity Policy](https://ischool.arizona.edu/sites/ischool.arizona.edu/files/iSchool%20Policy%20on%20Academic%20Integrity%20in%20Computing%202023%20-%20approved%20by%20faculty%20vote%20April%202023.pdf#:~:text=UArizona%20iSchool%20Instructors%20are%20expected%20to%20help%20students,prohibited%20in%20some%20courses%20are%20allowed%20in%20others.).
+-   **Online resources:** I am well aware that a huge volume of code is available on the web to solve any number of problems.
+    Unless I explicitly tell you not to use something, the course’s policy is that you may make use of any online resources (e.g., StackOverflow) but you must explicitly cite where you obtained any code you directly use (or use as inspiration).
+    Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.
 
-## **iSchool Academic Integrity Policy**
+-   **Use of generative artificial intelligence (AI)**: You should treat generative AI, such as ChatGPT, the same as other online resources.
+    There are two guiding principles that govern how you can use AI in this course[^1]:
 
-This policy agreed upon by faculty in the UArizona iSchool applies in addition to the Dean of Students' [Code of Academic Integrity](https://deanofstudents.arizona.edu/policies/code-academic-integrity).
+    1.  *Cognitive dimension:* Working with AI should not reduce your ability to think clearly. We will practice using AI to facilitate—rather than hinder—learning.
 
-Students in courses at the UArizona iSchool are expected to maintain rigor in their academic performance with intent to learn, practice, and overcome challenges toward personal growth and enrichment. As future professionals in digital environments, iSchool students are also expected to exercise transparency and integrity in collaborations and in the use of tools and resources that may aid completion in assignments for our courses.
+    2.  *Ethical dimension***:** Students using AI should be transparent about their use and make sure it aligns with academic integrity.
+
+    -   **✅ AI tools for code:** You may make use of the technology for coding examples on assignments; if you do so, you must explicitly cite where you obtained the code.
+        Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.
+        You may use [these guidelines](https://guides.lib.monash.edu/c.php?g=219786&p=6972087) for citing AI-generated content.
+
+    -   **❌ AI tools for narrative:** Unless instructed otherwise, you may not use generative AI to write narrative on assignments.
+        In general, you may use generative AI as a resource as you complete assignments but not to answer the exercises for you.
+
+    You are ultimately responsible for the work you turn in; it should reflect *your* understanding of the course content.
+
+[^1]: These guiding principles are based on [*Course Policies related to ChatGPT and other AI Tools*](https://docs.google.com/document/d/1WpCeTyiWCPQ9MNCsFeKMDQLSTsg1oKfNIH6MzoSFXqQ/preview) developed by Joel Gladd, Ph.D.
+
+If you are unsure if the use of a particular resource complies with the academic honesty policy, please ask a member of the teaching team.
+
+## College of Information Science Academic Integrity Policy
+
+This policy agreed upon by faculty in the College of Information Science at the University of Arizona (InfoSci) applies in addition to the Dean of Students' [Code of Academic Integrity](https://deanofstudents.arizona.edu/policies/code-academic-integrity).
+
+Students in courses at the U of A InfoSci are expected to maintain rigor in their academic performance with intent to learn, practice, and overcome challenges toward personal growth and enrichment.
+As future professionals in digital environments, InfoSci students are also expected to exercise transparency and integrity in collaborations and in the use of tools and resources that may aid completion in assignments for our courses.
 
 **Consider the following PROHIBITED** practices in this course, unless the instructor has specifically written instructions or permission to do otherwise:
 
 -   Posting a question on an online site such as Chegg.com, and copying and pasting some or all of the response into an assessment
 
--   Posting an assessment from the course on online sharing sites such as Course Hero. Aiding other students in violation of academic integrity is also a violation, and is potential copyright infringement.
+-   Posting an assessment from the course on online sharing sites such as Course Hero.
+    Aiding other students in violation of academic integrity is also a violation, and is potential copyright infringement.
 
 -   Generating and submitting, in whole or in part, text or code through Artificial Intelligence such as ChatGPT, QuillBot, and text summarizers
 
--   Using, in whole or in part, computer code not written by the student (for example, from another student, a book, or the internet) in an assignment or project. This includes using such code in modified or unmodified form.
+-   Using, in whole or in part, computer code not written by the student (for example, from another student, a book, or the internet) in an assignment or project.
+    This includes using such code in modified or unmodified form.
 
 -   Searching for solutions to projects or assignments on the internet or through other tools, when your instructor intended for you to learn the solution through exercises (e.g. Googling for the solution to a question on an assignment).
 
@@ -231,15 +266,20 @@ Students in courses at the UArizona iSchool are expected to maintain rigor in th
 
 ***Exceptions: Clear Instructions will be Provided***
 
-In any cases in which this course requires or permits students to use practices in the list above, clear written instructions will specify the tools allowed or required, so students can be certain they are working as instructed. See the [UArizona iSchool Academic Integrity Policy](https://ischool.arizona.edu/node/519), the [UArizona Code of Academic Integrity](https://deanofstudents.arizona.edu/policies/code-academic-integrity) and [Syllabus policy](https://catalog.arizona.edu/syllabus-policies) for more information.
+In any cases in which this course requires or permits students to use practices in the list above, clear written instructions will specify the tools allowed or required, so students can be certain they are working as instructed.
+See the [U of A InfoSci Academic Integrity Policy](https://infosci.arizona.edu/students-and-career/academic-integrity), the [U of A Code of Academic Integrity](https://deanofstudents.arizona.edu/policies/code-academic-integrity) and [Syllabus policy](https://catalog.arizona.edu/syllabus-policies) for more information.
 
-### **LLMs and ChatGPT**
+### LLMs and ChatGPT
 
-Large language models (LLMs) like ChatGPT are a type of artificial intelligence (AI) engine that can look like it generates the code you need for R labs and short answer questions. You are encouraged to use ChatGPT to debug code and experiment. However, abuse of ChatGPT can be traced (e.g., failing to give credit or cite ChatGPT when it is used) which could result in your suspension or termination from the course and even your program of study. Keep in mind, too, that while the code may appear legitimate, early studies have shown ChatGPT is not all that accurate with sophisticated coding. Exercise your scholarly discretion and maintain a sense of integrity in your statistical learning journey.
+Large language models (LLMs) like ChatGPT are a type of artificial intelligence (AI) engine that can look like it generates the code you need for Python labs and short answer questions.
+You are encouraged to use ChatGPT to debug code and experiment.
+However, abuse of ChatGPT can be traced (e.g., failing to give credit or cite ChatGPT when it is used) which could result in your suspension or termination from the course and even your program of study.
+Keep in mind, too, that while the code may appear legitimate, early studies have shown ChatGPT is not all that accurate with sophisticated coding.
+Exercise your scholarly discretion and maintain a sense of integrity in your statistical learning journey.
 
-*See my policies on this subject above.*
+*See my additional policies on this subject above.*
 
-### Late work & extensions {#late-work-extensions}
+## Late work & extensions {#late-work-extensions}
 
 The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline.
 
@@ -275,21 +315,21 @@ If there are circumstances that prevent you from completing a reading quiz or ho
 
 If there are circumstances that are having a longer-term impact on your academic performance, please let your academic dean know, as they can be a resource. Please let me know if you need help contacting your academic dean.
 
-### Regrade requests
+## Regrade requests
 
 Regrade requests must be made within one week of when the assignment is returned, and must be typed up and submitted via email to me. These will be considered if points were tallied incorrectly or if you feel your answer is correct but it was marked wrong. No regrade will be made to alter the number of points deducted for a mistake. Note that during the regrade process your score could go up or go down or not change.
 
 *No grades will be changed after the project presentations.*
 
-### "Incomplete" grade
+## "Incomplete" grade
 
 The grade of "I" may be awarded only at the end of a term, when all but a minor portion of the course work has been satisfactorily completed. The grade of I is not to be awarded in place of a failing grade or when the student is expected to repeat the course; in such a case, a grade other than I must be assigned. Students should make arrangements with the instructor to receive an incomplete grade before the end of the term. If the incomplete is not removed by the instructor within one year the I grade will revert to a failing grade.
 
-### **Tutoring**
+## Tutoring
 
 Tutoring can be found through the UArizona [Think Tank](#0 "https://thinktank.arizona.edu/").
 
-### Attendance policy
+## Attendance policy
 
 Responsibility for class attendance rests with individual students. Since regular and punctual class attendance is expected, students must accept the consequences of failure to attend.
 
@@ -306,6 +346,10 @@ Notify your instructor(s) if you will be missing up to one week of course meetin
 If you must miss the equivalent of more than one week of class and have an emergency, the Dean of Students is the proper office to contact ([DOS-deanofstudents\@email.arizona.edu](mailto:DOS-deanofstudents@email.arizona.edu)). The Dean of Students considers the following as qualified emergencies: the birth of a child, mental health hospitalization, domestic violence matter, house fire, hospitalization for physical health (concussion/emergency surgery/coma/COVID-19 complications/ICU), death of immediate family, Title IX matters, etc.
 
 Please understand that there is no guarantee of an extension when you are absent from class and/or miss a deadline.
+
+## Accessibility
+
+Accessibility and Accommodations: At the University of Arizona, we strive to make learning experiences as accessible as possible. If you anticipate or experience barriers based on disability or pregnancy, please contact the Disability Resource Center (520-621-3268, https://drc.arizona.edu) to establish reasonable accommodations.
 
 *Note: If you've read this far in the syllabus, email me a picture of your pet if you have one or your favorite meme!*
 

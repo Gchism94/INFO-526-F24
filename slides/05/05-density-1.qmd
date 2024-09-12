@@ -19,18 +19,6 @@ revealjs-plugins:
 
 -   Office Hours Monday will be devoted to Project 1!
 
-## Project next steps I {.smaller}
-
--   Proposal feedback is available.
-    -   Required: Address all issues and close them.
-
-## Project next steps II {.smaller}
-
--   Create a slide deck in `presentation.qmd`, replacing the placeholder text.
--   Add your write-up to `index.qmd`, replacing the placeholder text.
--   In both outputs, hide the code with `echo: false` prior to turning them in.
--   Due: Wednesday, October 16th, 2pm.
-
 ```{r}
 #| label: setup
 #| message: false
@@ -196,7 +184,7 @@ names(Batting)
 Our dataset comes from the R package `Lahman`. Each row in the data frame is the hitting stats of a player for a given year. We will mostly be using the following columns:
 
 | Variable   | Description                                                                        |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | `yearID`   | The year for the statistics                                                        |
 | `playerID` | Player unique ID to distinguish rows                                               |
 | `HR`       | The number of home runs a player hit in a given year                               |
