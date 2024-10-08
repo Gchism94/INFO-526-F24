@@ -1,0 +1,35 @@
+---
+title: Dashboards II
+subtitle: Lecture 15
+title-slide-attributes:
+  data-background-image: ../vizdata-bg.png
+  data-background-size: 800px, cover
+  data-slide-number: none
+format: revealjs
+highlight-style: a11y
+execute:
+  code-link: true
+  warning: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# From last time
+
+## Ultimate goal
+
+::: {.medium .center-align}
+https://mine-cetinkaya-rundel.github.io/ld-dashboard/
+:::
+
+```{r echo = FALSE}
+knitr::include_app("https://mine-cetinkaya-rundel.github.io/ld-dashboard/", height ="600px")
+```
+
+# Dashboards
+
+## Livecoding
+
+::: task
+Code along in `ex-25/dashboard.qmd`.
+:::

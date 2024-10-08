@@ -15,11 +15,7 @@ editor_options:
 
 ## Announcements {#.smaller}
 
--   Project 1 proposals for peer-review, due Wednesday, Sept 18
-
-    -   Final reviews due at 5PM AZ time
-
--   Project 1 proposals for instructor review, due Monday, Sept 23, 5PM AZ time
+-   Discussion: 1 project instead of 2.
 
 -   RQ 2 due Wednesday (Sept 25):
 

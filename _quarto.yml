@@ -79,24 +79,28 @@ website:
             text: Markdown
           - href: guides/quarto.qmd
             text: Quarto
-      - section: "Projects"
+      - section: "Project"
         contents:
-          - href: project/project-1.qmd
-            text: Project 1
-          - href: student-work/project-1.qmd
-            text: Project Examples
-          #- href: project/project-2.qmd
-            #text: Project 2
-          - href: project/project-tips-resources.qmd
-            text: Tips & Resources
+          - href: project/description.qmd
+            text: Description
+          - href: project/1-working-collaboratively.qmd
+            text: Milestone 1
+          - href: project/2-proposal.qmd
+            text: Milestone 2
+          - href: project/3-peer-review.qmd
+            text: Milestone 3
+          - href: project/4-writeup-presentation.qmd
+            text: Milestone 4            
+          - href: project/tips-resources.qmd
+            text: Tips + resources
       - section: "Homework"
         contents:
           - href: homework/hw-00.qmd
             text: HW 00
           - href: homework/hw-01.qmd
             text: HW 01
-          #- href: homework/hw-02.qmd
-           # text: HW 02
+          - href: homework/hw-02.qmd
+            text: HW 02
           #- href: homework/hw-03.qmd
            # text: HW 03
           #- href: homework/hw-04.qmd

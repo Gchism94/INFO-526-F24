@@ -17,7 +17,7 @@ revealjs-plugins:
 
 ## Announcements
 
--   Office Hours Monday will be devoted to Project 1!
+-   Office Hours Monday will be devoted to Projects!
 
 ```{r}
 #| label: setup
@@ -155,7 +155,7 @@ Based on [example](https://observablehq.com/@d3/kernel-density-estimation) by Mi
 -   Baseball! A home run in baseball occurs when a player hits a fair ball outside of the playing field. Examples:
 
 ::: {style="text-align: center"}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CiDy3-EsXiM">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9P5dDRIfKFA?si=i_twHqneg0EhgZ_5">
 
 </iframe>
 :::
@@ -184,7 +184,7 @@ names(Batting)
 Our dataset comes from the R package `Lahman`. Each row in the data frame is the hitting stats of a player for a given year. We will mostly be using the following columns:
 
 | Variable   | Description                                                                        |
-|-------------------|-----------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | `yearID`   | The year for the statistics                                                        |
 | `playerID` | Player unique ID to distinguish rows                                               |
 | `HR`       | The number of home runs a player hit in a given year                               |
