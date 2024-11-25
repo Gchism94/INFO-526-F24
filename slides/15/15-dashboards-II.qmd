@@ -19,17 +19,9 @@ editor_options:
 ## Ultimate goal
 
 ::: {.medium .center-align}
-https://mine-cetinkaya-rundel.github.io/ld-dashboard/
+<https://mine-cetinkaya-rundel.github.io/ld-dashboard/>
 :::
 
 ```{r echo = FALSE}
 knitr::include_app("https://mine-cetinkaya-rundel.github.io/ld-dashboard/", height ="600px")
 ```
-
-# Dashboards
-
-## Livecoding
-
-::: task
-Code along in `ex-25/dashboard.qmd`.
-:::

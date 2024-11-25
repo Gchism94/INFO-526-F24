@@ -14,11 +14,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Announcements
-
--   HW 04 + RQ 05 due Wednesday, November 20th (live now)
--   Project 2 proposals for peer review due Wednesday, November 13th
-
 ## Note
 
 ::: {.callout-important icon="false"}
@@ -611,53 +606,6 @@ Tuvalu, formerly known as the Ellice Islands, is an island country and microstat
 ::: aside
 Source: <https://en.wikipedia.org/wiki/Tuvalu>
 :::
-
-## Let's map! {background-color="#104E8B"}
-
-```{r}
-#| echo: false
-#| out-width: "105%"
-#| fig-width: 10
-
-freedom_map <- freedom_updated |>
-  left_join(world_map_updated, by = c("country" = "region"), relationship
-  = "many-to-many") |>
-  mutate(
-    cl = factor(cl, ordered = TRUE),
-    pr = factor(pr, ordered = TRUE)
-  )
-
-freedom_map |>
-  ggplot(mapping = aes(x = long, y = lat, group = group)) +
-  geom_polygon(aes(fill = cl), color = "gray", linewidth = 0.1) +
-  scale_fill_viridis_d(name = NULL, option = "B", na.value = "gray") +
-  guides(fill = guide_legend(nrow = 1)) +
-  coord_map(projection = "mercator", xlim = c(-180, 180)) +
-  theme_void() +
-  theme(
-    text = element_text(color = "white"),
-    legend.position = "top",
-    plot.background = element_rect(fill = "#104E8B", color = "#104E8B"),
-    plot.title = element_text(hjust = 0.5),
-    plot.subtitle = element_text(hjust = 0.5)
-  ) +
-  labs(
-    title = "Civil Liberties Ratings, 2022",
-    subtitle = "1 - Greatest to 7 - Smallest degree of freedom\n",
-    caption = "Source: Freedom House"
-  )
-```
-
-## Highlights from livecoding
-
--   When working through non-matching unique identifiers in a join, you might need to clean the data in both data frames being merged, depending on the context
-
--   Two ways to surface polygons with `NA`s:
-
-    -   `left_join()` map to data, layering with map at the bottom, data on top
-    -   `left_join()` data to map, set `na.value` in `scale_fill_*()` to desired color
-
--   Use `na.value = "red"` (or some other color that will stand out) to easily spot polygons with `NA`s
 
 # Geofaceting
 

@@ -14,30 +14,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Lessons from HW 02 {.smaller}
-
--   **Read the question carefully**
-
-    -   Several instances of no written narrative
-
-    -   Narrative means interpreting the trends from the plot
-
--   **Colors are important**
-
-    -   Contextual colors (e.g., political party colors) should be adhered to
-
--   **Narrative format**
-
-    -   Narrative text needs to be plain text, with a \## or \### level "Narrative" header above
-
--   **Suppress warnings and messages**
-
-    -   Use `#| warning: false` and `#| message: false`
-
--   **GitHub commits are important**
-
-    -   You must use at least one commit for each question, otherwise you won't be able to revert to prior commits.
-
 ## Setup {.smaller}
 
 ```{r}
@@ -617,4 +593,4 @@ Learn more at [https://patchwork.data-imaginist.com](https://patchwork.data-imag
 
 <br>
 
-Look into the source code at [https://github.com/INFO-526-F24/INFO526-F24/slides](https://github.com/INFO-526-F24/INFO526-F24/tree/main/slides).
+Look into the source code at [https://github.com/INFO-526-F24/INFO-526-F24/slides](https://github.com/INFO-526-F24/INFO-526-F24/tree/main/slides).
